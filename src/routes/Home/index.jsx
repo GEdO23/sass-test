@@ -21,12 +21,12 @@ export default function Home() {
     <>
       <div className="home-container">
         <div className="titulo-container">
-          <h2>Hello, I am</h2>
-          <h1>Gabriel Eringer</h1>
+          <h3>Hello, I am</h3>
+          <h2>Gabriel Eringer</h2>
           <p>A young hopeless romantic for UI/UX design</p>
         </div>
         <div className="redes-container">
-          <h3>Find me on</h3>
+          <p>Find me on</p>
           <ul className="icons-list">
             {icons.map((icon) => (
               <li className="icons-item" key={icon}>
