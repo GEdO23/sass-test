@@ -1,0 +1,33 @@
+@mixin border($style, $width, $color, $radius) {
+    border-style: $style;
+    border-width: $width;
+    border-color: $color;
+    border-radius: $radius;
+}
+
+@mixin borderTest($color) {
+    @include border(solid, 1px, $color, 2px);
+}
+
+.redesContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0009;
+    padding: 20px;
+    user-select: none;
+    & ul {
+        list-style: none;
+
+    }
+    & .iconList {
+        display: flex;
+        gap: 20px;
+        & .iconItem {
+            & .iconLink {
+                & .iconItem {
+                }
+
+            }
+        }
+    }
+}

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import style from './Cabecalho.module.scss';
 
 export default function Cabecalho() {
-  return (
+    return (
     <header className={style.cabecalhoContainer}>
         <h1 className={style.cabecalhoTitulo}>Portifolio</h1>
         <ul className={style.linksList}>
@@ -17,5 +17,5 @@ export default function Cabecalho() {
             </li>
         </ul>
     </header>
-  )
+    )
 }
